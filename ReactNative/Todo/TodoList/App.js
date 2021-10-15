@@ -1,7 +1,7 @@
 import React,{ useState } from 'react';
-import {StyleSheet, Text, View, KeyboardAvoidingView, Platform, TextInput, Keyboard} from 'react-native';
+import { StyleSheet, Text, View, KeyboardAvoidingView, Platform, TextInput, Keyboard} from 'react-native';
 import Task from "./components/Task";
-import {TouchableOpacity} from "react-native-web";
+import { TouchableOpacity } from "react-native-web";
 
 
 export default function App() {
@@ -25,7 +25,7 @@ export default function App() {
     <View style={styles.container}>
 
       <View style={styles.tasksWrapper}>
-        <Text style={styles.sectionTitle}>Today's task</Text>
+        <Text style={styles.sectionTitle}>TodoList Application</Text>
           <View style={styles.items}>
             {taskItems.map((task, index) => {
                 return (
